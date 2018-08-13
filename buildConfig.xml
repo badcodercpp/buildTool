@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+	<ProjectCollection type="Windows Service">
+		<Project name="DiagnosticWorkbench" path="C:\WorkbenchServiceTemplate\WindowsServiceTemplate\WindowsServiceTemplate.sln" binPath="C:\WorkbenchServiceTemplate\WindowsServiceTemplate\WindowsService\bin\Release" userid="itsdevazrapp002\itsdevazrapp002_svc" password="Password@1" serviceName="Diagnostic Workbench">
+		</Project>
+		<projectSetting>
+			<replace key="test" newValue="hello world">
+			</replace>
+			<log fileName="D:Logging\LogFile\log.log">
+			</log>
+			<connectionString connectionString="hello this is test connection string">
+			</connectionString>
+		</projectSetting>
+	</ProjectCollection>
+	<ProjectCollection type="Api">
+		<Project name="ChatBotApi" path="C:\Users\itsdevazrapp002_svc\source\repos\ChatBotApi\ChatBotApi.sln" binPath="C:\Users\itsdevazrapp002_svc\source\repos\ChatBotApi\ChatBotApi\bin\Release\PublishOutput" userid="itsdevazrapp002\itsdevazrapp002_svc" password="Password@1" windowAuthenticationApplied="false"  >
+		</Project>
+		<projectSetting>
+			<replace key="test" newValue="hello world">
+			</replace>
+			<log fileName="D:Logging\LogFile\log.log">
+			</log>
+			<connectionString connectionString="hello this is test connection string">
+			</connectionString>
+		</projectSetting>
+	</ProjectCollection>
+	<ProjectCollection type="Api">
+		<Project name="CommandCenterUI" path="F:\Arpan\Source\Automation\CommandCenterUI\CommandCenterUI.sln" binPath="F:\Arpan\Publish\Command Center UI" userid="itsdevazrapp002\itsdevazrapp002_svc" password="Password@1" windowAuthenticationApplied="true"  >
+		</Project>
+		<projectSetting>
+			<replace key="test" newValue="hello world">
+			</replace>
+			<log fileName="D:Logging\LogFile\log.log">
+			</log>
+			<connectionString connectionString="hello this is test connection string">
+			</connectionString>
+		</projectSetting>
+	</ProjectCollection>
+	<ProjectCollection type="Api">
+		<Project name="CommandCenterApi" path="F:\Arpan\Source\Automation\CommandCenterAPI\CommandCenterAPI.sln" binPath="F:\Arpan\Publish\Command Center API" userid="itsdevazrapp002\itsdevazrapp002_svc" password="Password@1" windowAuthenticationApplied="false"  >
+		</Project>
+		<projectSetting>
+			<replace key="test" newValue="hello world">
+			</replace>
+			<log fileName="D:Logging\LogFile\log.log">
+			</log>
+			<connectionString connectionString="hello this is test connection string">
+			</connectionString>
+		</projectSetting>
+	</ProjectCollection>
+	<ProjectCollection type="Ui">
+		<Project name="DiagnosticUtilities" path="C:\Users\itsdevazrapp002_svc\Desktop\angular\uiProject" binPath="" deployPath="C:\inetpub\wwwroot" userid="itsdevazrapp002\itsdevazrapp002_svc" password="Password@1" windowAuthenticationApplied="false" >
+		</Project>
+	</ProjectCollection>
+	<target path="C:\Users\itsdevazrapp002_svc\Desktop\deployment_automation\build" folder="C:\Users\itsdevazrapp002_svc\Desktop\deployment_automation">
+	</target>
+	<bom type="settings">
+		<msbuild installationPath="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\MSBuild.exe">
+		</msbuild>
+		<ng installationPath="C:\Users\itsdevazrapp002_svc\AppData\Roaming\npm">
+		</ng>
+		<signtool installationPath="C:\Program Files (x86)\Windows Kits\10\bin\10.0.16299.0\x86\signtool.exe">
+		</signtool>
+	</bom>
+	<website siteName="Command Center" port="8080" protocol="http" physicalPath="C:\Users\itsdevazrapp002_svc\Desktop\deployment_automation\website" hostName="localhost" >
+	</website>
+</Config>
