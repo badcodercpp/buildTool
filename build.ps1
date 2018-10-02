@@ -1,4 +1,4 @@
-# KPMG deployment automation script
+#  deployment automation script
 # Author Ajay Jha (badcoder)
 
 Function UrlReWriteRule {
